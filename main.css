@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+header{
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+}
+
+.mainWidth {
+    width: 1024px;
+    flex-shrink: 2;
+    font-weight: bold;
+}
+
+
+
+#head {
+    display: flex;;
+    justify-content: space-between;
+    font-size: 24px;
+    color: #F9FAF8;
+    align-items: center;
+}
+
+.heroSecondaryText{
+    font-size: 18px;
+    color: #E5E7EB;
+}
