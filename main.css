@@ -8,8 +8,9 @@ header{
 
 .center-page {
     display: flex;
-    padding: 1rem 14rem 7rem;
-    justify-content: center;
+    flex-direction: column;
+    padding: 1rem 14rem;
+    justify-content: space-between;
 }
 
 .main-width {
@@ -34,9 +35,9 @@ header{
     padding-bottom: 100px;
 }
 
-.header-left-side {
+/* .header-left-side {
     max-width: 500px;
-}
+} */
 
 .header-right-side {
     padding-left: 20px;
