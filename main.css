@@ -4,14 +4,19 @@ body {
 
 header{
     background-color: #1F2937;
-    display: flex;
-    justify-content: center;
 }
 
-.mainWidth {
-    width: 1024px;
-    flex-shrink: 2;
-    font-weight: bold;
+.center-page {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+}
+
+.main-width {
+    width: 1500px;
+    flex-shrink: 1;
+    flex-basis: auto;
 }
 
 
@@ -24,7 +29,135 @@ header{
     align-items: center;
 }
 
-.heroSecondaryText{
+#lower-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+
+.header-left-side {
+
+}
+
+.header-right-side {
+    padding-left: 20px;
+}
+
+.main-page-carosel {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-bottom: 100px;
+}
+
+.main-page-carpsel-item {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.rounded-square-with-padding{
+    margin: 10px;
+    padding: 100px;
+    border: 5px solid #3882F6;
+    border-radius: 10px;
+}
+
+.quote-section {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+}
+
+.quote-section-paragraph {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.alignment-second-grade {
+    padding-left: 200px;
+    padding-right: 200px;
+}
+
+.bottom-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #3882F6;
+}
+
+.blue-background-color {
+    background-color: #3882F6;
+}
+
+.button-border-white {
+    border: 2px solid white !important;
+    color: white;
+}
+
+footer {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #1F2937;;
+}
+
+/* begin text css */
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 0;
+}
+
+.hero-padding-text {
+    padding-left: 20px;
+}
+
+.hero-secondary-text {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
+
+.header-logo-text {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.info-header-text {
+    font-size: 36px;
+    font-weight: bold;
+    color: #1F2937;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.quote-text{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+}
+/* end text css */
+
+/* begin button */
+.button-style {
+    background-color: #3882F6;
+    padding: 5px 30px 5px 30px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
+/* end button*/
+
+
+/* begin structure css */
+
+/* end structure css */
